@@ -57,13 +57,16 @@ export default function Home() {
 
           {/* Additional buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link href="https://bit.ly/ccdkol25-cfs?ref=web" target="_blank">
+            <Link
+              href="https://go.gdgcloudkol.org/ccd25-cfs?ref=web"
+              target="_blank"
+            >
               <Button className="rounded-full px-6 py-4 font-medium text-base bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 shadow-md">
                 Call for Speakers
               </Button>
             </Link>
             <Link
-              href="https://bit.ly/ccd2025-sponsorship-brochure?ref=web"
+              href="https://go.gdgcloudkol.org/ccd25-sponsor?ref=web"
               target="_blank"
             >
               <Button className="rounded-full px-6 py-4 font-medium text-base bg-green-600 text-white hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-600 shadow-md">
