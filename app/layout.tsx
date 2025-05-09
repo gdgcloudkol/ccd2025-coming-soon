@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 // import { ThemeToggle } from "@/components/theme-toggle";
 import localFont from "next/font/local";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,8 +26,7 @@ const googleSans = localFont({
 export const metadata: Metadata = {
   title: "Cloud Community Days 2025",
   description:
-    "Google Developer Groups Cloud Community Days 2025 - 17th May 2025 at Biswa Bangla Exhibition Center",
-  generator: "v0.dev",
+    "Google Developer Groups Cloud Community Days 2025 - 19th July 2025 at Taj Taal Kutir, Kolkata",
 };
 
 export default function RootLayout({
@@ -46,6 +46,7 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-4MCWY97MMG" />
     </html>
   );
 }
